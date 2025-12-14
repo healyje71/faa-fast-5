@@ -1,0 +1,7 @@
+id,question,choice_a,choice_b,choice_c,correct,category
+1,What is the minimum fuel required for VFR night?,30 minutes,45 minutes,60 minutes,B,Regulations
+2,What causes carburetor icing?,High temperature and low humidity,Low temperature and high humidity,Low temperature and low humidity,B,Aircraft Systems
+3,What is Vx?,Best angle of climb,Best rate of climb,Best glide,A,Performance
+4,Thunderstorms are associated with what cloud type?,Stratus,Cumulonimbus,Cirrus,B,Weather
+5,A solid magenta line on a sectional indicates what?,Class E surface,Class D boundary,MOA boundary,A,Airspace
+6,When must position lights be on?,Sunset to sunrise,1 hour after sunset to 1 hour before sunrise,Only in IMC,A,Regulations
