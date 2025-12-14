@@ -430,7 +430,11 @@ def quiz():
 
     db = get_db()
     u = db.execute("SELECT streak FROM users WHERE id=?", (user_id,)).fetchone()
-    streak = int(u["streak"] or 0)
+if u is None:
+    session.clear()
+    return redirect(url_for("login"))
+streak = int(u["streak"] or 0)
+
 
     body = render_template_string(
         QUIZ,
